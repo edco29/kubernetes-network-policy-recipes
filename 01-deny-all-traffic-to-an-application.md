@@ -15,9 +15,9 @@ application, selected using Pod Selectors.
 
 ### Example
 
-Run a nginx Pod with labels `app= web`  and expose it at port 80:
+Run a nginx Pod with labels `app=web`  and expose it at port 80:
 
-    kubectl run web --image=nginx --labels app= web --expose --port 80
+    kubectl run web --image=nginx --labels app=web --expose --port 80
 
 Run a temporary Pod and make a request to `web` Service:
 
